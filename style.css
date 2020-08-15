@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "montserrat",sans-serif;
+    font-family: "Times New Roman",sans-serif;
     box-sizing: border-box;
   }
   
   body{
-    background-image: linear-gradient(120deg,#487eb0,#fbc531);
+    background-image: linear-gradient(to right,#006B38FF ,#755139FF);
     min-height: 100vh;
   }
   
@@ -20,15 +20,29 @@
   .txtb{
     width: 100%;
     border: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 3px solid #fff;
     background: none;
     padding: 10px;
     outline: none;
-    font-size: 18px;
+    font-size: 28px;
+    color: #ffffff;
   }
   
+  .time_function{
+      color: #ffffff;
+      text-align: left;
+      margin-top: 30px;
+      font-size: 50px;
+      border-bottom: 1px solid #000;
+      margin-bottom: 20px;
+
+
+  }
   h3{
     margin: 10px 0;
+    color: silver;
+    margin-top: 50px;
+    text-align: center;
   }
   
   .task{
@@ -41,9 +55,11 @@
   
   .task i{
     float: right;
-    margin-left: 20px;
+    margin-left: 40px;
     cursor: pointer;
+    color: #006B38FF;
   }
+  
   
   .comp .task{
     background: rgba(0,0,0,.5);
