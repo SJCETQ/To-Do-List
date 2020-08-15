@@ -43,6 +43,7 @@
     color: silver;
     margin-top: 50px;
     text-align: center;
+    letter-spacing: 2px;
   }
   
   .task{
@@ -64,5 +65,20 @@
   .comp .task{
     background: rgba(0,0,0,.5);
     color: #fff;
+    
   }
   
+
+  p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 220px;
+    text-align: center;
+    letter-spacing: 4px;
+
+  }
+
+  a{
+    text-decoration: none;
+    color: tomato;
+  }
